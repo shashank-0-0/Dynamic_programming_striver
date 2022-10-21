@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Fibonacci {
+public class Fibonacci_1 {
 
     public int fib(int n) {
 
