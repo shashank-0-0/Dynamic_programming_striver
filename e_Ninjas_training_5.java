@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class d_Ninjas_training_5 {
+public class e_Ninjas_training_5 {
     public static int ninjaTraining(int n, int points[][]){
         int[][] dp=new int[n+1][4];
         for(int[] row:dp){
@@ -51,7 +51,7 @@ public class d_Ninjas_training_5 {
             ans=Math.max(min,ans);
         }
         return dp[cur_day][last]=ans;
-
+//
     }
 
 
