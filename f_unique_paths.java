@@ -46,5 +46,27 @@ public class f_unique_paths {
 
         return dp[cur_row][cur_col]=right+down;
     }
+    //Unique path 2
+    public int uniquePath2(int[][] obstacleGrid){
+
+        int[][] dp=new int[m+1][n+1];
+        for(int i=m-1;i>=0;i--){
+            for(int j=n-1;j>=0;j--){
+                if(obstacleGrid[i][j]==1){
+                    dp[i][j]=0;
+                    continue;
+                }
+                if(i==m-1 && j==n-1){
+                    dp[i][j]=1;
+                }else{
+                    dp[i][j]=dp[i][j+1]+dp[i+1][j];
+                }
+            }
+        }
+        return dp[0][0];
+
+    }
 
 }
+
+
