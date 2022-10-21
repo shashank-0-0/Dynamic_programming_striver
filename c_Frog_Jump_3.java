@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Frog_Jump {
+public class c_Frog_Jump_3 {
 
     public static int frogJump(int n, int heights[]) {
 

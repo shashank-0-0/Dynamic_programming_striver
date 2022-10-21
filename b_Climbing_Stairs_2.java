@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Climbing_Stairs {
+public class b_Climbing_Stairs_2 {
     public int climbStairs(int n) {
 
         int dp[]=new int[n+1];
