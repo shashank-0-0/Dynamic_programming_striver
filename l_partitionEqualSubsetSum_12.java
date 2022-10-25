@@ -17,7 +17,7 @@ public class l_partitionEqualSubsetSum_12 {
         for(int i=0;i<n+1;i++){
             dp[i][0]=true;
         }
-        for(int i=n-1;i>=0;i--){
+        for(int i=n-1;i>=0;i--)\{
             for(int j=k;j>=0;j--){
                 if(arr[i]<=j){
                     dp[i][j]=dp[i+1][j-arr[i]] || dp[i+1][j];

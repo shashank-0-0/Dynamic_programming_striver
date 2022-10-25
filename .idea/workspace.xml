@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34279fe9-c6b1-442d-861a-19935b4ff3df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Frog_Jump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m_partitionMinimumSubsetSum_13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fibonacci_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l_partitionEqualSubsetSum_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_partitionEqualSubsetSum_12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +35,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
-    <configuration name="Frog_Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Frog_Jump" />
+  <component name="RunManager" selected="Application.e_Ninjas_training_5">
+    <configuration name="c_Frog_Jump_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c_Frog_Jump_3" />
+      <module name="Dynamic_programming_striver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="e_Ninjas_training_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e_Ninjas_training_5" />
       <module name="Dynamic_programming_striver" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -46,7 +56,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Frog_Jump" />
+        <item itemvalue="Application.e_Ninjas_training_5" />
+        <item itemvalue="Application.c_Frog_Jump_3" />
       </list>
     </recent_temporary>
   </component>

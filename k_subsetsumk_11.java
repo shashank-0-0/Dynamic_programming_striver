@@ -29,7 +29,7 @@ public class k_subsetsumk_11 {
             return false;
         }
         if(dp[cur_ind][k]!=-1){
-            return dp[cu
+            return dp[cur_ind][k];
         }
         if(arr[cur_ind]<=k){
             return solve(cur_ind+1,n,arr,k-arr[cur_ind],dp) || solve(cur_ind+1,n,arr,k,dp);
