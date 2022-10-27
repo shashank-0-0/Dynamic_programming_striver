@@ -15,7 +15,7 @@ public class n_countSubset_14 {
            dp[i][0]=1;
        }
        for(int i=n-1;i>=0;i--){
-           for(int j=k;j>=0;j--){
+           for(int j=0;j<=k;j++){
                if(num[i]<=j){
                    dp[i][j]=dp[i+1][j-num[i]] + dp[i+1][j];
                }else{
