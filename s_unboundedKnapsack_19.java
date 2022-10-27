@@ -40,5 +40,6 @@ public class s_unboundedKnapsack_19 {'
             return dp[cur][maxWeight]=solve(weight,value,cur+1,maxWeight,n,dp);
         }
 
-    }'
+    }
+    //Rod cutting problem is the exact problem with different definition check out
 }
