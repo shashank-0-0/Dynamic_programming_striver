@@ -7,27 +7,25 @@ public class p_minimumCoins_16 {
         Arrays.fill(row,-1);
     }
         return solve(coins,0,p,n,dp);
-    //         TABULATION (tabulation is in reverse since i couldnt figure out for the below recurrence)
+    //         TABULATION
     int[][] dp=new int[n+1][p+1];
-        for(int i=0;i<p+1;i++){
-        dp[0][i]=100000000;
+    for(int i=0;i<p+1;i++){
+        dp[n][i]=10000000;
     }
-        for(int i=0;i<n+1;i++){
-        dp[i][0]=0;
-    }
-        for(int i=1;i<n+1;i++){
-        for(int j=1;j<p+1;j++){
 
-            if(coins[i-1]<=j){
-                int take=1+dp[i][j-coins[i-1]];
-                int nottake= dp[i-1][j];
+    for(int i=n-1;i>=0;i--){
+        for(int j=1;j<p+1;j++){
+            if(coins[i]<=j){
+                int take=1+dp[i][j-coins[i]];
+                int nottake= dp[i+1][j];
                 dp[i][j]=Math.min(take,nottake);
             }else{
-                dp[i][j]=dp[i-1][j];
+                dp[i][j]=dp[i+1][j];
             }
         }
     }
-        return dp[n][p];
+    return dp[0][p];
+
 }
     private static int solve(int[] coins,int cur,int maxWeight,int n,int[][] dp){
         if(maxWeight==0){
