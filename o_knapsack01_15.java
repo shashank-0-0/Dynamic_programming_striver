@@ -10,7 +10,7 @@ public class o_knapsack01_15 {
         int[][] dp=new int[n+1][maxWeight+1];
 
         for(int i=n-1;i>=0;i--){
-            for(int j=maxWeight;j>=0;j--){
+            for(int j=0;j<=maxWeight;j++){
                 if(weight[i]<=j){
                     int take=value[i]+dp[i+1][j-weight[i]];
                     int nottake= dp[i+1][j];
