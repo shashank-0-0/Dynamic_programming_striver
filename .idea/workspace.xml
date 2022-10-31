@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34279fe9-c6b1-442d-861a-19935b4ff3df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/m_partitionMinimumSubsetSum_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ze_Buy_ans_sell_stocks_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zf_Buy_and_sell_stocks_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zg_Buy_and_sell_stocks_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_partitionEqualSubsetSum_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/l_partitionEqualSubsetSum_12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
