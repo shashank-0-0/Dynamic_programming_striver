@@ -1,4 +1,4 @@
-public class ze_Buy_ans_sell_stocks_2 {
+public class ze_Buy_and_sell_stocks_2 {
     public int maxProfit(int[] prices) {
 
         int n=prices.length;
