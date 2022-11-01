@@ -43,5 +43,31 @@ public class zj_LIS {
         return dp[cur_ind][prev_ind+1]=Math.max(pick,not_pick);
 
     }
+    //NEETCODE's SOLUTION
+
+    [1,2,4,3] LIS[3]=1 , LIS[2]=Math.max(1,1+LIS[3]) 1+LIS[3] only if nums[2]<nums[3] ,
+    LIS[1] = nums[1]<nums[2] and nums[1]<nums[3] =Math.max(1,1+LIS[2],1+LIS[3]);
+    LIS[0]=nums[0]<nums[1],nums[2],num[3] = Math.ma(1,1+LIS[1],1+LIS[2],1+LIS[3]);
+
+    int n=nums.length;
+    int ans=0;
+    int[] LIS=new int[n];
+    Arrays.fill(LIS,1);
+
+    for(int i=n-1;i>=0;i--){
+        for(int j=i+1;j<n;j++){
+            if(nums[i]<nums[j]){
+                LIS[i]=Math.max(LIS[i],1+LIS[j]);
+            }
+        }
+    }
+    for(int i:LIS){
+        ans=Math.max(ans,i);
+    }
+    return ans;
+
+    // LIS[i] represents the longest increasing subsequence starting from i to n i.e; with i starting
+
+
 
 }
