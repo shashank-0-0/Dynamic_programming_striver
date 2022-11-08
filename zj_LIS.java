@@ -1,8 +1,8 @@
 public class zj_LIS {
     public int lengthOfLIS(int[] nums) {
-
+        
          int n=nums.length;
-         int[][] dp=new int[n+1][n+1];
+         int[][] dp=new int [n+1][n+1];
          for(int[] row:dp){
              Arrays.fill(row,-1);
          }
